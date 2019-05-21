@@ -1,0 +1,38 @@
+[2019-05-21 15:42:06.629] [exthost6] [info] extension host started
+[2019-05-21 15:42:06.653] [exthost6] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:06.653] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/out/extension
+[2019-05-21 15:42:06.667] [exthost6] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:06.667] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/out/extension
+[2019-05-21 15:42:06.747] [exthost6] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:06.747] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/out/main
+[2019-05-21 15:42:06.983] [exthost6] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:06.983] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/out/extension
+[2019-05-21 15:42:07.000] [exthost6] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:07.000] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-rg/out/extension
+[2019-05-21 15:42:07.010] [exthost6] [info] eager extensions activated
+[2019-05-21 15:42:18.084] [exthost6] [info] extension host started
+[2019-05-21 15:42:18.109] [exthost6] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:18.109] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/out/extension
+[2019-05-21 15:42:18.124] [exthost6] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:18.124] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/out/extension
+[2019-05-21 15:42:18.203] [exthost6] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:18.203] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/out/main
+[2019-05-21 15:42:18.436] [exthost6] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:18.436] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/out/extension
+[2019-05-21 15:42:18.454] [exthost6] [info] ExtensionService#_doActivateExtension vscode.search-rg {"startup":true,"activationEvent":"*"}
+[2019-05-21 15:42:18.454] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/search-rg/out/extension
+[2019-05-21 15:42:18.465] [exthost6] [info] eager extensions activated
+[2019-05-21 15:42:18.468] [exthost6] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"activationEvent":"onLanguage:html"}
+[2019-05-21 15:42:18.468] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/html-language-features/client/out/htmlMain
+[2019-05-21 15:43:39.427] [exthost6] [info] ExtensionService#_doActivateExtension vscode.configuration-editing {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-05-21 15:43:39.427] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/configuration-editing/out/extension
+[2019-05-21 15:43:39.535] [exthost6] [info] ExtensionService#_doActivateExtension vscode.json-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-05-21 15:43:39.535] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/json-language-features/client/out/jsonMain
+[2019-05-21 15:43:39.784] [exthost6] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"activationEvent":"onLanguage:jsonc"}
+[2019-05-21 15:43:39.784] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/out/extension
+[2019-05-21 15:51:07.703] [exthost6] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"activationEvent":"onLanguage:typescript"}
+[2019-05-21 15:51:07.703] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/extension-editing/out/extension
+[2019-05-21 16:15:58.728] [exthost6] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":false,"activationEvent":"onLanguage:json"}
+[2019-05-21 16:15:58.728] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/npm/out/main
+[2019-05-21 16:16:35.790] [exthost6] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features {"startup":false,"activationEvent":"onLanguage:markdown"}
+[2019-05-21 16:16:35.790] [exthost6] [info] ExtensionService#loadCommonJSModule /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-language-features/out/extension

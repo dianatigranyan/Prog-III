@@ -1,0 +1,66 @@
+May 21, 2019, 3:24:59 PM: Log created
+May 21, 2019, 3:24:59 PM : **************************
+May 21, 2019, 3:25:00 PM : ARMAgent invoked...
+May 21, 2019, 3:25:01 PM : process id=423, path: /Library/Application Support/Adobe/ARMDC/Application/Acrobat Update Helper.app
+May 21, 2019, 3:25:01 PM : ** Processing registration information for product com.adobe.acrobat.dc
+May 21, 2019, 3:25:01 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 3:25:02 PM :    PlistReader : Optional plist key {VersionExt} is not present.
+May 21, 2019, 3:25:02 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 3:25:03 PM :    WARNING Product's Feature lock down key is set to 0. Skip updating this product.
+May 21, 2019, 3:25:03 PM : ** Processing registration information for product com.adobe.acrobat.servicesupdater.dc
+May 21, 2019, 3:25:03 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 3:25:03 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 3:25:04 PM :    ERROR Product exists
+May 21, 2019, 3:25:04 PM : ** Processing registration information for product com.adobe.reader.dc
+May 21, 2019, 3:25:04 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 3:25:04 PM :    PlistReader : Optional plist key {VersionExt} is not present.
+May 21, 2019, 3:25:05 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 3:25:05 PM :    ERROR Eula acceptance validation failed.
+May 21, 2019, 3:25:05 PM : ** Processing registration information for product com.adobe.reader.servicesupdater.dc
+May 21, 2019, 3:25:05 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 3:25:05 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 3:25:05 PM :    ERROR Eula acceptance validation failed.
+May 21, 2019, 3:25:05 PM : ** ARMAgent: All products are up-to-date, checking self update...
+May 21, 2019, 3:25:05 PM : ** Processing registration information for product com.adobe.ARMDCHelper
+May 21, 2019, 3:25:06 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 3:25:06 PM :    PlistReader : Optional plist key {VersionExt} is not present.
+May 21, 2019, 3:25:06 PM :    PlistReader : Optional plist key {FeatureLockDown} is not present.
+May 21, 2019, 3:25:06 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 3:25:06 PM :    Checking updates for product Acrobat Update Helper .
+May 21, 2019, 3:25:06 PM :    Fetching payload content from https:/armmf.adobe.com/arm-manifests/mac/ARMDC/current_version.txt
+May 21, 2019, 3:25:06 PM : URL 'https:/armmf.adobe.com/arm-manifests/mac/ARMDC/current_version.txt' contents: '1.0.15'
+May 21, 2019, 3:25:06 PM : URL 'https:/armmf.adobe.com/arm-manifests/mac/ARMDC/current_version.txt' contents: '1.0.15'
+May 21, 2019, 3:25:06 PM : Installed app '/Library/Application Support/Adobe/ARMDC/Application/Acrobat Update Helper.app' version: '1.0.15'
+May 21, 2019, 3:25:06 PM : ARM Bookkeeper : creating item at path {/Users/user/Library/Preferences/Adobe/ARMDC/Support Files/com.adobe.ARMDCHelper.plist}, returned 1
+May 21, 2019, 3:25:06 PM : ARM Bookkeeper : Write contents at {/Users/user/Library/Preferences/Adobe/ARMDC/Support Files/com.adobe.ARMDCHelper.plist} location
+May 21, 2019, 3:25:06 PM : No update available. Application Acrobat Update Helper is up-to-date. 
+May 21, 2019, 3:25:21 PM : ARMAgent done...
+May 21, 2019, 6:55:21 PM : **************************
+May 21, 2019, 6:55:21 PM : ARMAgent invoked...
+May 21, 2019, 6:55:21 PM : process id=3336, path: /Library/Application Support/Adobe/ARMDC/Application/Acrobat Update Helper.app
+May 21, 2019, 6:55:21 PM : ** Processing registration information for product com.adobe.acrobat.dc
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional plist key {VersionExt} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 6:55:21 PM :    WARNING Product's Feature lock down key is set to 0. Skip updating this product.
+May 21, 2019, 6:55:21 PM : ** Processing registration information for product com.adobe.acrobat.servicesupdater.dc
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 6:55:21 PM :    ERROR Product exists
+May 21, 2019, 6:55:21 PM : ** Processing registration information for product com.adobe.reader.dc
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional plist key {VersionExt} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 6:55:21 PM :    ERROR Eula acceptance validation failed.
+May 21, 2019, 6:55:21 PM : ** Processing registration information for product com.adobe.reader.servicesupdater.dc
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 6:55:21 PM :    ERROR Eula acceptance validation failed.
+May 21, 2019, 6:55:21 PM : ** ARMAgent: All products are up-to-date, checking self update...
+May 21, 2019, 6:55:21 PM : ** Processing registration information for product com.adobe.ARMDCHelper
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional Plist key {ProductName} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional plist key {VersionExt} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Optional plist key {FeatureLockDown} is not present.
+May 21, 2019, 6:55:21 PM :    PlistReader : Product registration plist parsing done.
+May 21, 2019, 6:55:21 PM :    Recently checked for update, so not checking again.
+May 21, 2019, 6:55:36 PM : ARMAgent done...

@@ -1,0 +1,16 @@
+2019/05/21-15:26:00.779 13803 Reusing MANIFEST Session Storage/MANIFEST-000001
+2019/05/21-16:37:11.717 24f9b Level-0 table #5: started
+2019/05/21-16:37:11.805 24f9b Level-0 table #5: 14558 bytes OK
+2019/05/21-16:37:11.992 24f9b Delete type=0 #3
+2019/05/21-16:48:24.563 23aa3 Level-0 table #7: started
+2019/05/21-16:48:24.657 23aa3 Level-0 table #7: 14118 bytes OK
+2019/05/21-16:48:24.761 23aa3 Delete type=0 #4
+2019/05/21-17:02:06.836 2389b Level-0 table #9: started
+2019/05/21-17:02:06.920 2389b Level-0 table #9: 14325 bytes OK
+2019/05/21-17:02:07.127 2389b Delete type=0 #6
+2019/05/21-17:11:52.183 21ca7 Level-0 table #11: started
+2019/05/21-17:11:52.239 21ca7 Level-0 table #11: 14546 bytes OK
+2019/05/21-17:11:52.411 21ca7 Delete type=0 #8
+2019/05/21-19:17:11.101 2506f Level-0 table #13: started
+2019/05/21-19:17:11.189 2506f Level-0 table #13: 16120 bytes OK
+2019/05/21-19:17:11.457 2506f Delete type=0 #10

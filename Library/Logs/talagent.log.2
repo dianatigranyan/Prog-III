@@ -1,0 +1,49 @@
+ Time	               Bundle ID	              Status	Comment
+0.000	                       -	                   -	TALagent Started (system uptime: 78.57 sec, current time: 535645824.28)
+0.023	                       -	                   -	Liveness: 0 -> 1 (run_as_server)
+0.024	                       -	                   -	Liveness: 1 -> 2 (create_xpc_listener)
+0.024	                       -	                   -	Blocking app contact
+0.041	                       -	                   -	Successfully read encryption key from keychain in 0.017012 seconds
+0.045	                       -	                   -	Liveness: 2 -> 3 (schedule_maintenance)
+1.475	                       -	                   -	Liveness: 3 -> 4 (server_show_windows_for_asns)
+1.475	                       -	                   -	server_show_windows_for_asns start
+1.475	                       -	                   -	Allowing apps to contact us
+1.476	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.476	                       -	                   -	Still waiting for registration from Finder
+1.476	                       -	                   -	Liveness: 4 -> 5 (add_app)
+1.476	                       -	                   -	Finder not yet launched, but pretending it is
+1.491	        com.apple.finder	                   -	Failed to create a window image: Failed to read metadata for file '/Users/user/Library/Saved Application State/com.apple.finder.savedState/window_1.data'. errno is 93 (Attribute not found)
+1.491	                       -	                   -	loginwindow launched no apps (but we still have to handle Finder)
+1.491	                       -	                   -	Bitmaps Ready (0 apps, 0 windows)
+1.491	        com.apple.finder	                   -	Disposing because it has no windows
+1.491	        com.apple.finder	            Disposed	
+1.491	                       -	                   -	server_show_windows_for_asns end
+1.493	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.493	                       -	                   -	Still waiting for registration from Finder
+1.493	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.493	                       -	                   -	Still waiting for registration from Finder
+1.538	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.538	                       -	                   -	Still waiting for registration from Finder
+1.667	                       -	                   -	TAL launch still in progress because Finder has not checked in
+1.667	                       -	                   -	Still waiting for registration from Finder
+1.854	        com.apple.finder	                   -	Finder checked in
+1.854	                       -	                   -	All started apps have registered (no remaining unregistered apps)
+1.854	                       -	                   -	Waiting for Dock...
+1.855	                       -	                   -	Dock is avaialable.
+1.855	                       -	                   -	Liveness: 5 -> 6 (_wait_for_dock)
+1.855	                       -	                   -	TAL Relaunch - all apps registered as ready
+1.855	                       -	                   -	Liveness: 6 -> 5 (__server_show_windows_for_asns_block_invoke.34)
+1.855	                       -	                   -	Liveness: 5 -> 4 (___wait_for_dock_block_invoke_3)
+3.305	                       -	                   -	Liveness: 4 -> 3 (__create_xpc_listener_block_invoke)
+3.679	                       -	                   -	Liveness: 3 -> 2 (__remove_app_block_invoke)
+16.245	                       -	                   -	Liveness: 2 -> 1 (__run_as_server_block_invoke)
+304.034	                       -	                   -	Liveness: 1 -> 2 (perform_all_maintenance)
+304.034	                       -	                   -	Rotating key
+304.042	                       -	                   -	Modified the encryption key in-place in the keychain
+304.043	                       -	                   -	Liveness: 2 -> 3 (expire_or_reencrypt_bitmaps)
+304.043	                       -	                   -	Liveness: 3 -> 4 (expiration_perform_maintenance)
+304.043	                       -	                   -	Liveness: 4 -> 3 (perform_all_maintenance)
+304.043	                       -	                   -	Liveness: 3 -> 2 (__schedule_maintenance_block_invoke)
+304.045	                       -	                   -	Liveness: 2 -> 1 (__expire_or_reencrypt_bitmaps_block_invoke)
+304.045	                       -	                   -	Liveness: 1 -> 0 (__expiration_perform_maintenance_block_invoke)
+304.045	                       -	                   -	Exiting out of boredom

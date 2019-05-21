@@ -1,0 +1,17 @@
+cd /Users/user/
+du -sh *
+cd D
+cd Desktop/
+rm -rf *
+cd ..
+du -sh *
+cd Library/
+du -sh *
+rm -rf Caches/*
+du -sh *
+du -sh
+cd ..
+du -sh
+cd ..
+pwd
+du -sh user/

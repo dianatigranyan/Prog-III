@@ -1,0 +1,11 @@
+[2019-05-21 15:27:39.338] [main] [info] update#setState idle
+[2019-05-21 15:28:09.342] [main] [info] update#setState checking for updates
+[2019-05-21 15:28:10.958] [main] [info] update#setState downloading
+[2019-05-21 15:33:13.818] [main] [error] UpdateService error:  The request timed out.
+[2019-05-21 15:33:13.818] [main] [info] update#setState idle
+[2019-05-21 16:28:09.529] [main] [info] update#setState checking for updates
+[2019-05-21 16:28:11.428] [main] [info] update#setState downloading
+[2019-05-21 16:29:04.325] [main] [error] UpdateService error:  The operation couldn’t be completed. (OSStatus error -60006.)
+[2019-05-21 16:29:04.325] [main] [info] update#setState idle
+[2019-05-21 17:28:09.383] [main] [info] update#setState checking for updates
+[2019-05-21 17:28:09.826] [main] [info] update#setState downloading

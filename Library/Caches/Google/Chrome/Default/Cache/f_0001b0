@@ -1,0 +1,398 @@
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [3]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [45]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_1</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="s1">'Calculus I'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Algorithms'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Linear Algebra I'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Russian History'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Computer Practice I'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="p">]</span>
+<span class="n">marks_2</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="s1">'Assembler'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Discrete Math'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Linear Algerbra II'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Calculus II'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Computer Practice II'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="p">]</span>
+<span class="n">marks_3</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="s1">'OS'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Philosophy'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Numerical Methods Intro'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Calculus III'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">7</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Computer Practice III'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Mechanics'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">]</span>
+<span class="p">]</span>
+<span class="n">marks_4</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="s1">'Ordinary Differential Equations'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Probability theory'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Programming Systems'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Foreign Language'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Computer Practice IV'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Calculus IV'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">6</span><span class="p">]</span>
+<span class="p">]</span>
+<span class="n">marks_5</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="s1">'Equations of Mathematical Physics'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Pattern Recognition I'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Computer Practice V'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Optimal Control'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Economic Sciences'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Statistical Physics'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="p">]</span>
+<span class="n">marks_6</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="p">[</span><span class="s1">'Numerical Methods'</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Pattern Recognition II'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Applied Algebra'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Image Processing'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Computer Practice VI'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Optimization Methods'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span>
+    <span class="p">[</span><span class="s1">'Course Work'</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span>
+<span class="p">]</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [46]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks_lst</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">([</span><span class="n">marks_1</span><span class="p">,</span> <span class="n">marks_2</span><span class="p">,</span> <span class="n">marks_3</span><span class="p">,</span> 
+                 <span class="n">marks_4</span><span class="p">,</span> <span class="n">marks_5</span><span class="p">,</span> <span class="n">marks_6</span><span class="p">],</span> <span class="p">[])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [47]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">marks_lst</span><span class="p">,</span> <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">'Name'</span><span class="p">,</span> <span class="s1">'Mark'</span><span class="p">,</span> <span class="s1">'Credits'</span><span class="p">])</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [48]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">marks</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt output_prompt">Out[48]:</div>
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Name</th>
+      <th>Mark</th>
+      <th>Credits</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Calculus I</td>
+      <td>5</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Algorithms</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Linear Algebra I</td>
+      <td>5</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Russian History</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Computer Practice I</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Assembler</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Discrete Math</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Linear Algerbra II</td>
+      <td>5</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Calculus II</td>
+      <td>5</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>Computer Practice II</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>OS</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>Philosophy</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>Numerical Methods Intro</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>Calculus III</td>
+      <td>4</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>Computer Practice III</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>Mechanics</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>Ordinary Differential Equations</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>Probability theory</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>Programming Systems</td>
+      <td>4</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>Foreign Language</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>Computer Practice IV</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>Calculus IV</td>
+      <td>4</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>Equations of Mathematical Physics</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>Pattern Recognition I</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>Computer Practice V</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>Optimal Control</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>Economic Sciences</td>
+      <td>5</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>Statistical Physics</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>Numerical Methods</td>
+      <td>4</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>Pattern Recognition II</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>Applied Algebra</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>Image Processing</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>Computer Practice VI</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>Optimization Methods</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>Course Work</td>
+      <td>5</td>
+      <td>3</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [43]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">GPA_pure</span> <span class="o">=</span>  <span class="n">marks</span><span class="p">[</span><span class="s1">'Mark'</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">GPA_credit</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">(</span><span class="n">marks</span><span class="p">[</span><span class="s1">'Mark'</span><span class="p">]</span> <span class="o">*</span> <span class="n">marks</span><span class="p">[</span><span class="s1">'Credits'</span><span class="p">]</span> <span class="o">/</span> <span class="n">marks</span><span class="p">[</span><span class="s1">'Credits'</span><span class="p">]</span><span class="o">.</span><span class="n">sum</span><span class="p">())</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [44]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s1">'Pure GPA:</span><span class="se">\t\t</span><span class="s1">'</span><span class="p">,</span> <span class="n">GPA_pure</span><span class="p">,</span><span class="s1">'/ 5 ='</span><span class="p">,</span> <span class="n">GPA_pure</span> <span class="o">*</span> <span class="mi">4</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="s1">'/ 4'</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="s1">'GPA with Credits:</span><span class="se">\t</span><span class="s1">'</span><span class="p">,</span> <span class="n">GPA_credit</span><span class="p">,</span><span class="s1">'/ 5 ='</span><span class="p">,</span> <span class="n">GPA_credit</span> <span class="o">*</span> <span class="mi">4</span><span class="o">/</span><span class="mi">5</span><span class="p">,</span> <span class="s1">'/ 4'</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+<div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Pure GPA:		 4.74285714286 / 5 = 3.79428571429 / 4
+GPA with Credits:	 4.72307692308 / 5 = 3.77846153846 / 4
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+ 
+

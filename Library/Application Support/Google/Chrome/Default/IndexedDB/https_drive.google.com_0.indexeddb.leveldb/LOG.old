@@ -1,0 +1,36 @@
+2019/05/21-15:26:40.412 6503 Reusing MANIFEST /Users/user/Library/Application Support/Google/Chrome/Default/IndexedDB/https_drive.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/05/21-15:28:42.298 1324b Level-0 table #5: started
+2019/05/21-15:28:42.555 1324b Level-0 table #5: 4943502 bytes OK
+2019/05/21-15:28:42.656 1324b Delete type=0 #3
+2019/05/21-16:06:15.733 1324b Level-0 table #7: started
+2019/05/21-16:06:15.951 1324b Level-0 table #7: 4724427 bytes OK
+2019/05/21-16:06:16.013 1324b Delete type=0 #4
+2019/05/21-17:41:06.482 1324b Level-0 table #9: started
+2019/05/21-17:41:08.183 1324b Level-0 table #9: 6647320 bytes OK
+2019/05/21-17:41:08.563 1324b Delete type=0 #6
+2019/05/21-17:41:44.416 1324b Level-0 table #11: started
+2019/05/21-17:41:44.635 1324b Level-0 table #11: 5732854 bytes OK
+2019/05/21-17:41:44.687 1324b Delete type=0 #8
+2019/05/21-17:42:53.214 1324b Level-0 table #13: started
+2019/05/21-17:42:53.444 1324b Level-0 table #13: 7206888 bytes OK
+2019/05/21-17:42:53.529 1324b Delete type=0 #10
+2019/05/21-17:44:09.284 1324b Level-0 table #15: started
+2019/05/21-17:44:09.505 1324b Level-0 table #15: 4420158 bytes OK
+2019/05/21-17:44:09.564 1324b Delete type=0 #12
+2019/05/21-17:44:09.565 1324b Compacting 4@0 + 1@1 files
+2019/05/21-17:44:09.740 1324b Generated table #16@0: 30 keys, 2237372 bytes
+2019/05/21-17:44:09.974 1324b Generated table #17@0: 1 keys, 3425593 bytes
+2019/05/21-17:44:10.050 1324b Generated table #18@0: 14 keys, 1893 bytes
+2019/05/21-17:44:10.050 1324b Compacted 4@0 + 1@1 files => 5664858 bytes
+2019/05/21-17:44:10.125 1324b compacted to: files[ 0 3 1 0 0 0 0 ]
+2019/05/21-17:44:10.126 1324b Delete type=2 #7
+2019/05/21-17:44:10.138 1324b Delete type=2 #9
+2019/05/21-17:44:10.138 1324b Delete type=2 #11
+2019/05/21-17:44:10.139 1324b Delete type=2 #13
+2019/05/21-17:44:10.139 1324b Delete type=2 #15
+2019/05/21-17:46:39.768 1324b Level-0 table #20: started
+2019/05/21-17:46:39.980 1324b Level-0 table #20: 6223336 bytes OK
+2019/05/21-17:46:40.049 1324b Delete type=0 #14
+2019/05/21-17:47:58.550 1324b Level-0 table #22: started
+2019/05/21-17:47:58.792 1324b Level-0 table #22: 4804606 bytes OK
+2019/05/21-17:47:58.847 1324b Delete type=0 #19

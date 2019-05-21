@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>URL</key>
+	<string>vnc://lab007m._rfb._tcp.local</string>
+	<key>restorationAttributes</key>
+	<dict>
+		<key>autoClipboard</key>
+		<false/>
+		<key>controlMode</key>
+		<integer>0</integer>
+		<key>isFullScreen</key>
+		<false/>
+		<key>quality</key>
+		<integer>3</integer>
+		<key>scalingMode</key>
+		<true/>
+		<key>targetAddress</key>
+		<string>vnc://lab007m._rfb._tcp.local</string>
+		<key>viewerScaleFactor</key>
+		<real>1</real>
+		<key>windowContentFrame</key>
+		<string>{{0, 0}, {586, 421}}</string>
+		<key>windowFrame</key>
+		<string>{{343, 200}, {586, 443}}</string>
+	</dict>
+</dict>
+</plist>
